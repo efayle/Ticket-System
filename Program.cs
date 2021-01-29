@@ -63,13 +63,13 @@ namespace HOMEWORK
                         Console.WriteLine("Enter who is assigned for this ticket");
                         string ticketAssigned = Console.ReadLine();
 
-                        string ticketWatched;
+                        string ticketWatched = "";
                         int totalTicketWatched = 0;
                         
                         Console.WriteLine("How many people are watching this ticket");
                         totalTicketWatched = Convert.ToInt32(Console.ReadLine());
 
-                        StringBuilder sb = new StringBuilder();
+                        //StringBuilder sb = new StringBuilder();
                         if (totalTicketWatched != 0) {
 
                             for (int j = 0; j < totalTicketWatched; j++) {
@@ -78,7 +78,7 @@ namespace HOMEWORK
                             }
                         }
 
-                        sw.WriteLine("{0},{1},{2},{3},{4},{5},{6}", ticketID, ticketSummary, ticketStatus, ticketPriority, ticketSubmitter, ticketAssigned, ticketWatched);
+                        sw.WriteLine("{0},{1},{2},{3},{4},{5},{6}", ticketID, ticketSummary, ticketStatus, ticketPriority, ticketSubmitter, ticketAssigned, string.Join("|", ticketWatched));
                     }
 
                     sw.Close();
