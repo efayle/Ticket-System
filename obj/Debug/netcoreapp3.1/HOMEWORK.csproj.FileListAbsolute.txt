@@ -1,0 +1,13 @@
+C:\Users\Elena\source\repos\School\Semesters\Spring\Spring 2021\.Net Database Programming\Week 1 - Review C#\HOMEWORK\bin\Debug\netcoreapp3.1\HOMEWORK.exe
+C:\Users\Elena\source\repos\School\Semesters\Spring\Spring 2021\.Net Database Programming\Week 1 - Review C#\HOMEWORK\bin\Debug\netcoreapp3.1\HOMEWORK.deps.json
+C:\Users\Elena\source\repos\School\Semesters\Spring\Spring 2021\.Net Database Programming\Week 1 - Review C#\HOMEWORK\bin\Debug\netcoreapp3.1\HOMEWORK.runtimeconfig.json
+C:\Users\Elena\source\repos\School\Semesters\Spring\Spring 2021\.Net Database Programming\Week 1 - Review C#\HOMEWORK\bin\Debug\netcoreapp3.1\HOMEWORK.runtimeconfig.dev.json
+C:\Users\Elena\source\repos\School\Semesters\Spring\Spring 2021\.Net Database Programming\Week 1 - Review C#\HOMEWORK\bin\Debug\netcoreapp3.1\HOMEWORK.dll
+C:\Users\Elena\source\repos\School\Semesters\Spring\Spring 2021\.Net Database Programming\Week 1 - Review C#\HOMEWORK\bin\Debug\netcoreapp3.1\HOMEWORK.pdb
+C:\Users\Elena\source\repos\School\Semesters\Spring\Spring 2021\.Net Database Programming\Week 1 - Review C#\HOMEWORK\obj\Debug\netcoreapp3.1\HOMEWORK.csprojAssemblyReference.cache
+C:\Users\Elena\source\repos\School\Semesters\Spring\Spring 2021\.Net Database Programming\Week 1 - Review C#\HOMEWORK\obj\Debug\netcoreapp3.1\HOMEWORK.AssemblyInfoInputs.cache
+C:\Users\Elena\source\repos\School\Semesters\Spring\Spring 2021\.Net Database Programming\Week 1 - Review C#\HOMEWORK\obj\Debug\netcoreapp3.1\HOMEWORK.AssemblyInfo.cs
+C:\Users\Elena\source\repos\School\Semesters\Spring\Spring 2021\.Net Database Programming\Week 1 - Review C#\HOMEWORK\obj\Debug\netcoreapp3.1\HOMEWORK.csproj.CoreCompileInputs.cache
+C:\Users\Elena\source\repos\School\Semesters\Spring\Spring 2021\.Net Database Programming\Week 1 - Review C#\HOMEWORK\obj\Debug\netcoreapp3.1\HOMEWORK.dll
+C:\Users\Elena\source\repos\School\Semesters\Spring\Spring 2021\.Net Database Programming\Week 1 - Review C#\HOMEWORK\obj\Debug\netcoreapp3.1\HOMEWORK.pdb
+C:\Users\Elena\source\repos\School\Semesters\Spring\Spring 2021\.Net Database Programming\Week 1 - Review C#\HOMEWORK\obj\Debug\netcoreapp3.1\HOMEWORK.genruntimeconfig.cache
