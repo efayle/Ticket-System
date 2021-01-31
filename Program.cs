@@ -18,7 +18,7 @@ namespace HOMEWORK
                 choice = Console.ReadLine();
 
                 if (choice == "1") {
-                    
+                    // check for csv file before opening
                     if(File.Exists(file)) {
                         StreamReader sr = new StreamReader(file);
 
