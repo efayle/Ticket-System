@@ -35,7 +35,7 @@ namespace HOMEWORK
                     }
 
                 } else if (choice == "2") {
-                    StreamWriter sw = new StreamWriter(file);
+                    StreamWriter sw = new StreamWriter(file, append: true);
 
                     for (int i = 0; i < 10; i++) {
 
@@ -63,22 +63,22 @@ namespace HOMEWORK
                         Console.WriteLine("Enter who is assigned for this ticket");
                         string ticketAssigned = Console.ReadLine();
 
-                        string ticketWatched = "";
+                        
                         int totalTicketWatched = 0;
                         
                         Console.WriteLine("How many people are watching this ticket");
                         totalTicketWatched = Convert.ToInt32(Console.ReadLine());
-
+                        string[] ticketWatchers = new string[totalTicketWatched];
                         //StringBuilder sb = new StringBuilder();
                         if (totalTicketWatched != 0) {
 
                             for (int j = 0; j < totalTicketWatched; j++) {
                                 Console.WriteLine("Who is watching this ticket");
-                                ticketWatched = Console.ReadLine();
+                                ticketWatchers[j] = Console.ReadLine();
                             }
                         }
-
-                        sw.WriteLine("{0},{1},{2},{3},{4},{5},{6}", ticketID, ticketSummary, ticketStatus, ticketPriority, ticketSubmitter, ticketAssigned, string.Join("|", ticketWatched));
+                        //Console.WriteLine($"{ticketWatchers}");
+                        sw.WriteLine("{0},{1},{2},{3},{4},{5},{6}", ticketID, ticketSummary, ticketStatus, ticketPriority, ticketSubmitter, ticketAssigned, string.Join("|", ticketWatchers));
                     }
 
                     sw.Close();
